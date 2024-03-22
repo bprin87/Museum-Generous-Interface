@@ -1,0 +1,22 @@
+.modal-container {
+    border-right: 1px solid lightgray;
+    width: 350px;
+    height: 692px;
+    overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #fff;
+    margin-top: 60px;
+}
+
+.modal-container h1, .modal-container h2 {
+    margin: 10px auto 0 10px;
+}
+
+.modal-container h2 {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
